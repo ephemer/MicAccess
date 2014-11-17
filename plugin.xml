@@ -34,8 +34,8 @@
 
   <platform name="ios">
     <plugins-plist key="MicAccess" string="MicAccess"/>
-    <header-file src="MicAccess-Bridging-Header.h"/>
-    <source-file src="MicAccess.swift"/>
+    <header-file src="src/iOS/MicAccess-Bridging-Header.h"/>
+    <source-file src="src/iOS/MicAccess.swift"/>
 
     <framework src="AVFoundation.framework" weak="true" />
     <framework src="AudioToolbox.framework" weak="true" />
